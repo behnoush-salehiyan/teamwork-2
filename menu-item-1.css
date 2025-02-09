@@ -4,3 +4,20 @@ input::placeholder {
 footer {
   color: gray;
 }
+.places {
+  width: 90px;
+  height: 90px;
+}
+.palce-icon {
+  width: 64px;
+  height: 64px;
+}
+.icon-bg {
+  width: 90px;
+  height: 90px;
+}
+.back-img {
+  background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(1, 95, 201, 0.9)),
+    url() center center no-repeat;
+  background-size: cover;
+}
