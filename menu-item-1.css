@@ -21,7 +21,7 @@ footer {
     url(./photo-contact/thumb_720_450_f_12.jpg) center center no-repeat;
   background-size: cover;
 }
-.carousel-item img {
+.image {
   width: 100px;
   height: 100px;
   object-fit: cover;
