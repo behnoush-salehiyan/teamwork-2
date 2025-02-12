@@ -46,24 +46,34 @@ footer {
 }
 .text-card-p {
   position: relative;
+  overflow: hidden;
 }
 .text-card {
-  opacity: 0;
   position: absolute;
-  bottom: 0px;
   width: 100%;
-  transition: all 0.6s ease;
+  bottom: -50px;
+  left: 0px;
+  opacity: 0;
+  transition: all 0.5s;
 }
 .text-card-p:hover .text-card {
-  opacity: 100%;
+  opacity: 1;
+  width: 100%;
+  bottom: 0px;
 }
 .button {
   width: 35px;
   height: auto;
 }
 .image-card {
-  transition: all 0.6s ease;
+  transition: all 0.5s;
 }
 .text-card-p:hover .image-card {
-  transform: scale(1.3);
+  transform: scale(1.1);
+}
+.back-to-top {
+  bottom: 50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
 }
