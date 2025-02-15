@@ -20,64 +20,62 @@
   <body class="bg-body-tertiary">
     <header id="header">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container pe-5">
-          <a class="navbar-brand d-flex align-items-center" href="#"
-            ><img
-              src="./photo/Untitled-1.jpg"
-              alt=""
-              class="image-fluid logo"
-            /><span class="h3 text-dark">Bootcamp </span></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0 bg-white">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >menu item1</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">menu item2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">menu item3</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  menu item4
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">sub menu1</a></li>
-                  <li><a class="dropdown-item" href="#">sub menu2</a></li>
-                  <li><a class="dropdown-item" href="#">sub menu3</a></li>
-                  <li><a class="dropdown-item" href="#">sub menu4</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">menu item5</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn btn-primary" type="submit">Search</button>
-            </form>
-          </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+        <a class="navbar-brand d-flex align-items-center" href="#"
+          ><img
+            src="./photo/Untitled-1.jpg"
+            alt=""
+            class="image-fluid logo"
+          /><span class="h3 text-dark">Bootcamp </span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 bg-white">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >menu item1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">menu item2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">menu item3</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                menu item4
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">sub menu1</a></li>
+                <li><a class="dropdown-item" href="#">sub menu2</a></li>
+                <li><a class="dropdown-item" href="#">sub menu3</a></li>
+                <li><a class="dropdown-item" href="#">sub menu4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">menu item5</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
         </div>
       </nav>
     </header>
@@ -88,23 +86,18 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="./photo/1.jpg" class="d-block w-100" alt="..." />
-              <!-- translate-middle-y -->
-              <div class="carousel-caption">
+              <div
+                class="d-flex align-items-center position-absolute top-0 bottom-0 start-0 end-0 text-light"
+              >
                 <div class="container">
                   <div class="row">
-                    <div class="col-12 col-lg-6 text-start mt-lg-5 pt-lg-5">
-                      <h2
-                        class="mb-0 mb-lg-3 display-3 display-lg-3 text-light"
-                      >
-                        First slide label
-                      </h2>
-                      <p class="fs-6 fs-lg-5">
+                    <div class="col-12">
+                      <h2 class="display-3 pb-3" style="font-weight: 700;">First slide label</h5>
+                      <p class="fs-5">
                         Some representative placeholder content for the first
                         slide.
                       </p>
-                      <a href="#" class="btn btn-primary p-2 m-1 p-lg-3 mt-lg-2"
-                        >read more</a
-                      >
+                      <button class="btn btn-primary px-4 py-2">lorem</button>
                     </div>
                   </div>
                 </div>
@@ -113,81 +106,55 @@
             <div class="carousel-item">
               <img src="./photo/2.jpg" class="d-block w-100" alt="..." />
               <div
-                class="carousel-caption d-none d-md-block position-absolute top-50 translate-middle-y"
+                class="d-flex align-items-center position-absolute top-0 bottom-0 start-0 end-0 text-light"
               >
                 <div class="container">
-                  <div class="row">
-                    <div class="col-6 text-start mt-5 pt-5">
-                      <h2 class="display-3 mb-3 text-light">
-                        First slide label
-                      </h2>
-                      <p class="fs-5">
-                        Some representative placeholder content for the first
-                        slide.
-                      </p>
-                      <a href="#" class="btn btn-primary p-3 mt-2">read more</a>
-                    </div>
-                  </div>
+                  <h2 class="display-3 pb-3" style="font-weight: 700;">Second slide label</h5>
+                  <p class="fs-5">
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                  <button class="btn btn-primary px-4 py-2">lorem</button>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <img src="./photo/3.jpg" class="d-block w-100" alt="..." />
               <div
-                class="carousel-caption d-none d-md-block position-absolute top-50 translate-middle-y"
+                class="d-flex align-items-center position-absolute top-0 bottom-0 start-0 end-0 text-light"
               >
                 <div class="container">
-                  <div class="row">
-                    <div class="col-6 text-start mt-5 pt-5">
-                      <h2 class="mb-3 display-3 text-light">
-                        First slide label
-                      </h2>
-                      <p class="fs-5">
-                        Some representative placeholder content for the first
-                        slide.
-                      </p>
-                      <a href="#" class="btn btn-primary p-3 mt-2">read more</a>
-                    </div>
-                  </div>
+                  <h2 class="display-3 pb-3"style="font-weight: 700;">Third slide label</h5>
+                  <p class="fs-5">
+                    Some representative placeholder content for the third slide.
+                  </p>
+                  <button class="btn btn-primary px-4 py-2">lorem</button>
                 </div>
               </div>
             </div>
           </div>
-
           <button
-            class="carousel-control-prev m-3"
+            class="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev"
           >
-            <i
-              class="bi bi-chevron-left btn btn-primary rounded-circle fs-3"
-              style="height: 3rem; width: 3rempx"
-              aria-hidden="true"
-            ></i>
-            <!-- <span
+            <span
               class="carousel-control-prev-icon btn btn-primary rounded-circle"
-              style="height: 40px; width: 40px"
               aria-hidden="true"
-            ></span> -->
+            ></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next m-3"
+            class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next"
           >
-            <i
-              class="bi bi-chevron-right btn btn-primary rounded-circle fs-3"
-              style="height: 3rem; width: 3rem"
+            <span
+              class="carousel-control-next-icon btn btn-primary rounded-circle"
               aria-hidden="true"
-            ></i>
-            <!-- <span
-              class="carousel-control-next-icon"
-              style="height: 40px; width: 40px"
-              aria-hidden="true"
-            ></span> -->
+            ></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -201,7 +168,7 @@
         </div>
 
         <div class="row g-4 pb-5 mx-4">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <!-- card1 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -226,7 +193,7 @@
             </div>
             <!-- card1 end -->
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <!-- card2 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -251,7 +218,7 @@
             </div>
             <!-- card2 end -->
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <!-- card3 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -276,7 +243,7 @@
             </div>
             <!-- card3 end -->
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <!-- card4 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -301,7 +268,7 @@
             </div>
             <!-- card4 end -->
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <!-- card5 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -326,7 +293,7 @@
             </div>
             <!-- card5 end -->
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <!-- card6 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -358,7 +325,7 @@
       <section class="px-3 py-5 back-img">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-12  col-lg-6">
               <h2 class="display-5 mb-5 text-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deleniti, nostrum!
@@ -437,7 +404,7 @@
         <div class="container my-5">
           <h2 class="display-6 text-center mb-5">Lorem, ipsum dolor.</h2>
           <div class="row g-5 mx-4">
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -478,7 +445,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -519,7 +486,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -560,7 +527,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -614,7 +581,7 @@
         </h2>
         <div class="row g-5">
           <div
-            class="col-3 d-flex flex-column justify-content-around align-items-end mt-5 px-5 d-none"
+            class="col-3   d-flex flex-column justify-content-around align-items-end mt-5 px-5 "
           >
             <img
               src="./icon/1.jpg"
@@ -631,7 +598,7 @@
             />
           </div>
           <!-- carousel -->
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-md-6">
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
               <div class="d-flex flex-column align-items-center">
                 <div class="carousel-inner">
@@ -722,7 +689,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 d-flex flex-column justify-content-around align-items-end mt-5 px-5 d-none"
+            class="col-lg-3  d-none d-md-blo "
           >
             <img
               src="./icon/4.jpg"
@@ -747,7 +714,7 @@
       <section class="bg-dark pt-5 footer">
         <div class="container">
           <div class="row g-5">
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                 nisi aliquid adipisci dignissimos harum, voluptatem error
@@ -771,7 +738,7 @@
                 ></a>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <h5 class="text-light">Lorem ipsum</h5>
               <div>
                 <p>
@@ -782,7 +749,7 @@
                 <p><i class="bi bi-envelope-fill me-2"></i>info@example.com</p>
               </div>
             </div>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <h5 class="text-light">Lorem ipsum Links</h5>
 
               <a href="" class="text-decoration-none link-secondary btn"
@@ -801,7 +768,7 @@
                 ><i class="bi bi-chevron-right"></i> Lorem, ipsum dolor.</a
               >
             </div>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
               <h5 class="text-light">Lorem ipsum</h5>
               <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -821,19 +788,21 @@
             </div>
           </div>
         </div>
-        <div class="border-top border-secondary mt-4">
-          <div class="container pt-4 row">
-            <div class="col-12 text-center">
+        <div class="border-top border-secondary ">
+          <div class="container pt-2 ">
+            <div class="row">
+            <div class="col-12 col-sm-6 text-center text-sm-start">
               <p>
                 © <a href="">Lorem Ipsum Lorem Ipsum</a>, Lorem Ipsum Lorem
                 Ipsum.
               </p>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 col-sm-6 text-center text-sm-end">
               <p>Lorem ipsum By<a href="#">Lorem, ipsum.</a></p>
               <p>Lorem ipsum By:<a href="#">lorem</a></p>
             </div>
           </div>
+        </div>
         </div>
       </section>
     </footer>
