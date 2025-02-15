@@ -21,12 +21,13 @@
     <header id="header">
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand d-flex gap-3 align-items-center" href="#"
-            ><img src="" alt="" width="250px" height="100px" /><span
-              class="h1 text-dark"
-              >Bootcamp
-            </span></a
+        <div class="container pe-5">
+          <a class="navbar-brand d-flex align-items-center" href="#"
+            ><img
+              src="./photo/Untitled-1.jpg"
+              alt=""
+              class="image-fluid logo"
+            /><span class="h3 text-dark">Bootcamp </span></a
           >
           <button
             class="navbar-toggler"
@@ -85,22 +86,25 @@
       <section>
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-inner">
-            <div class="carousel-item active position-relative">
+            <div class="carousel-item active">
               <img src="./photo/1.jpg" class="d-block w-100" alt="..." />
-              <div
-                class="carousel-caption d-none d-md-block position-absolute top-50 translate-middle-y"
-              >
+              <!-- translate-middle-y -->
+              <div class="carousel-caption">
                 <div class="container">
                   <div class="row">
-                    <div class="col-6 text-start mt-5 pt-5">
-                      <h2 class="mb-3 display-3 text-light">
+                    <div class="col-12 col-lg-6 text-start mt-lg-5 pt-lg-5">
+                      <h2
+                        class="mb-0 mb-lg-3 display-3 display-lg-3 text-light"
+                      >
                         First slide label
                       </h2>
-                      <p class="fs-5">
+                      <p class="fs-6 fs-lg-5">
                         Some representative placeholder content for the first
                         slide.
                       </p>
-                      <a href="#" class="btn btn-primary p-3 mt-2">read more</a>
+                      <a href="#" class="btn btn-primary p-2 m-1 p-lg-3 mt-lg-2"
+                        >read more</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -151,14 +155,14 @@
           </div>
 
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev m-3"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev"
           >
             <i
               class="bi bi-chevron-left btn btn-primary rounded-circle fs-3"
-              style="height: 60px; width: 60px"
+              style="height: 3rem; width: 3rempx"
               aria-hidden="true"
             ></i>
             <!-- <span
@@ -169,14 +173,14 @@
             <span class="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            class="carousel-control-next m-3"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next"
           >
             <i
               class="bi bi-chevron-right btn btn-primary rounded-circle fs-3"
-              style="height: 60px; width: 60px"
+              style="height: 3rem; width: 3rem"
               aria-hidden="true"
             ></i>
             <!-- <span
@@ -196,8 +200,8 @@
           <h2 class="my-5">Lorem ipsum dolor sit amet.</h2>
         </div>
 
-        <div class="row g-4 pb-5">
-          <div class="col-4">
+        <div class="row g-4 pb-5 mx-4">
+          <div class="col-12 col-lg-4">
             <!-- card1 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -222,7 +226,7 @@
             </div>
             <!-- card1 end -->
           </div>
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <!-- card2 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -247,7 +251,7 @@
             </div>
             <!-- card2 end -->
           </div>
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <!-- card3 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -272,7 +276,7 @@
             </div>
             <!-- card3 end -->
           </div>
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <!-- card4 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -297,7 +301,7 @@
             </div>
             <!-- card4 end -->
           </div>
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <!-- card5 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -322,7 +326,7 @@
             </div>
             <!-- card5 end -->
           </div>
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <!-- card6 start -->
             <div class="card pt-5 shadow-sm border border-0">
               <div class="d-flex align-items-center">
@@ -348,17 +352,13 @@
             <!-- card6 end -->
           </div>
         </div>
-
-        <div>
-          <!-- card 2 -->
-        </div>
       </section>
       <!-- best placese end -->
       <!-- contact with us start -->
-      <section class="container-fluid back-img py-5 my-5">
-        <div class="container py-5">
-          <div class="row g-5">
-            <div class="col-6">
+      <section class="px-3 py-5 back-img">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
               <h2 class="display-5 mb-5 text-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deleniti, nostrum!
@@ -371,20 +371,18 @@
                 sed stet lorem sit clita duo justo magna
               </p>
               <div class="bg-light p-3 rounded">
-                <div class="bg-primary rounded p-3 d-flex align-items-center">
+                <div class="bg-primary d-flex align-items-center p-3">
                   <img
-                    src=""
+                    src="./icon/phone-icon-1024x1024-bn4mirqi.jpg"
                     alt=""
-                    class="rounded-circle me-4"
-                    width="45px"
-                    height="45px"
+                    class="phone-icon me-3 rounded-circle"
                   />
                   <h5 class="text-light">Lorem, ipsum: +989122222222</h5>
                 </div>
               </div>
             </div>
             <!-- form start -->
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div class="bg-light p-5 rounded mt-5">
                 <div class="mb-3">
                   <div class="row g-4">
@@ -438,8 +436,8 @@
       <section>
         <div class="container my-5">
           <h2 class="display-6 text-center mb-5">Lorem, ipsum dolor.</h2>
-          <div class="row g-5">
-            <div class="col-3">
+          <div class="row g-5 mx-4">
+            <div class="col-12 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -480,7 +478,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -521,7 +519,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -562,7 +560,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <div class="text-card-p rounded">
                 <div class="ratio ratio-1x1">
                   <img
@@ -616,7 +614,7 @@
         </h2>
         <div class="row g-5">
           <div
-            class="col-3 d-flex flex-column justify-content-around align-items-end mt-5 px-5"
+            class="col-3 d-flex flex-column justify-content-around align-items-end mt-5 px-5 d-none"
           >
             <img
               src="./icon/1.jpg"
@@ -633,7 +631,7 @@
             />
           </div>
           <!-- carousel -->
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
               <div class="d-flex flex-column align-items-center">
                 <div class="carousel-inner">
@@ -724,7 +722,7 @@
             </div>
           </div>
           <div
-            class="col-3 d-flex flex-column justify-content-around align-items-end mt-5 px-5"
+            class="col-lg-3 d-flex flex-column justify-content-around align-items-end mt-5 px-5 d-none"
           >
             <img
               src="./icon/4.jpg"
@@ -746,10 +744,10 @@
     </main>
     <!-- footer start -->
     <footer>
-      <section class="container-fluid bg-dark mt-5 pt-5 footer">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-3">
+      <section class="bg-dark pt-5 footer">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-12 col-lg-3">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                 nisi aliquid adipisci dignissimos harum, voluptatem error
@@ -758,20 +756,22 @@
                 minima velit culpa mollitia eius sed quisquam magni labore ad
                 libero tempora nisi! Nemo, laborum iste!
               </p>
-              <a href="#" class="btn btn-outline-secondary me-1"
-                ><i class="bi bi-twitter"></i
-              ></a>
-              <a href="#" class="btn btn-outline-secondary me-1"
-                ><i class="bi bi-facebook"></i
-              ></a>
-              <a href="#" class="btn btn-outline-secondary me-1"
-                ><i class="bi bi-youtube"></i
-              ></a>
-              <a href="#" class="btn btn-outline-secondary me-1"
-                ><i class="bi bi-linkedin"></i
-              ></a>
+              <div>
+                <a href="#" class="btn btn-outline-secondary me-1"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a href="#" class="btn btn-outline-secondary me-1"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="btn btn-outline-secondary me-1"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+                <a href="#" class="btn btn-outline-secondary me-1"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <h5 class="text-light">Lorem ipsum</h5>
               <div>
                 <p>
@@ -782,7 +782,7 @@
                 <p><i class="bi bi-envelope-fill me-2"></i>info@example.com</p>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <h5 class="text-light">Lorem ipsum Links</h5>
 
               <a href="" class="text-decoration-none link-secondary btn"
@@ -801,23 +801,37 @@
                 ><i class="bi bi-chevron-right"></i> Lorem, ipsum dolor.</a
               >
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <h5 class="text-light">Lorem ipsum</h5>
               <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="position-relative">
                   <input
                     type="text"
-                    class="form-control w-100 py-3 position-absolute end-0 text-secondary bg-transparent"
+                    class="form-control w-100 py-3 text-secondary bg-transparent"
                     placeholder="enter your email"
                   />
                   <button
-                    class="btn btn-primary position-absolute end-0 mt-2 me-2 px-4 focus-ring"
+                    class="btn btn-primary position-absolute end-0 top-0 mt-2 me-2 focus-ring"
                   >
                     send
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-top border-secondary mt-4">
+          <div class="container pt-4 row">
+            <div class="col-12 text-center">
+              <p>
+                © <a href="">Lorem Ipsum Lorem Ipsum</a>, Lorem Ipsum Lorem
+                Ipsum.
+              </p>
+            </div>
+            <div class="col-12 text-center">
+              <p>Lorem ipsum By<a href="#">Lorem, ipsum.</a></p>
+              <p>Lorem ipsum By:<a href="#">lorem</a></p>
             </div>
           </div>
         </div>

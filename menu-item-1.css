@@ -77,3 +77,14 @@ footer {
   width: 40px;
   height: 40px;
 }
+
+.phone-icon {
+  height: 45px;
+  width: 45px;
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 112px;
+    height: auto;
+  }
+}
