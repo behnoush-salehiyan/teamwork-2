@@ -1,0 +1,106 @@
+input::placeholder {
+  color: rgb(80, 80, 80) !important;
+}
+footer {
+  color: gray;
+}
+.places {
+  width: 90px;
+  height: 90px;
+}
+.palce-icon {
+  width: 64px;
+  height: 64px;
+}
+.icon-bg {
+  width: 90px;
+  height: 90px;
+}
+.back-img {
+  background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(1, 95, 201, 0.9)),
+    url(./photo-contact/thumb_720_450_f_12.jpg) center center no-repeat;
+  background-size: cover;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.icon70 {
+  width: 80px;
+  height: 80px;
+  border-style: dashed;
+  border-width: 1px;
+}
+.icon60 {
+  width: 70px;
+  height: 70px;
+  border-style: dashed;
+  border-width: 1px;
+}
+.icon50 {
+  width: 60px;
+  height: 60px;
+  border-style: dashed;
+  border-width: 1px;
+}
+.text-card-p {
+  position: relative;
+  overflow: hidden;
+}
+.text-card {
+  position: absolute;
+  width: 100%;
+  bottom: -50px;
+  left: 0px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.text-card-p:hover .text-card {
+  opacity: 1;
+  width: 100%;
+  bottom: 0px;
+}
+.button {
+  width: 35px;
+  height: auto;
+}
+.image-card {
+  transition: all 0.5s;
+}
+.text-card-p:hover .image-card {
+  transform: scale(1.1);
+}
+.back-to-top {
+  bottom: 50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.phone-icon {
+  height: 45px;
+  width: 45px;
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 112px;
+    height: auto;
+  }
+}
+@media (min-width: 576px) {
+  .logo {
+    width: 112px;
+    height: auto;
+  }
+}
+
+.footer_link {
+  transition: 0.2s linear;
+  color: #626262;
+}
+.footer_link:hover {
+  transform: scale(1.1);
+  color: white;
+  transform-origin: left;
+}
