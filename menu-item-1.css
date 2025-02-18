@@ -94,3 +94,13 @@ footer {
     height: auto;
   }
 }
+
+.footer_link {
+  transition: 0.2s linear;
+  color: #626262;
+}
+.footer_link:hover {
+  transform: scale(1.1);
+  color: white;
+  transform-origin: left;
+}
